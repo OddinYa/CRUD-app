@@ -29,7 +29,12 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="69e43f5b-778b-4668-ba13-939c7697bcdf">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT * FROM Person WHERE id=1]]></console>
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[create table person(
+        id serial primary key ,
+        name varchar(50),
+        surname varchar(50),
+        email varchar(80)
+);]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
